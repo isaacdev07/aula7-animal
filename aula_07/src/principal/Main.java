@@ -22,12 +22,15 @@ public class Main {
 		else if(resposta.equals("cachorro")){
 			Cachorro x = new Cachorro();
 			System.out.println(x.emitirSom());
-		}else {
+		}else if(resposta.equals("vaca")){
 			Vaca x = new Vaca();
 			System.out.println(x.emitirSom());
+		}else {
+			System.out.printLm("Escreva um animal válido");
 		}
 
 		scn.close();
 	}
 
 }
+
